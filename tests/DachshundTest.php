@@ -1,7 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../classes/Dog.php';
-require_once dirname(__FILE__) . '/../classes/Dogs/Dachshund.php';
+require_once dirname(__FILE__) . '/../autoload.php';
 
 use PHPUnit\Framework\TestCase;
 

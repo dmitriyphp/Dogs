@@ -1,11 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/classes/Dog.php';
-require_once dirname(__FILE__) . '/classes/Dogs/Dachshund.php';
-require_once dirname(__FILE__) . '/classes/Dogs/Mops.php';
-require_once dirname(__FILE__) . '/classes/Dogs/PlushLabrador.php';
-require_once dirname(__FILE__) . '/classes/Dogs/RubberDachshundWithSqueaker.php';
-require_once dirname(__FILE__) . '/classes/Dogs/ShibaInu.php';
+require_once dirname(__FILE__) . '/autoload.php';
 
 if (sizeof($argv) < 3) {
     echo 'Wrong input values';
